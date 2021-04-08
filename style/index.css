@@ -1,1 +1,84 @@
-/* Add CSS styling here */
+/* Add CSS styling here 
+CSS:
+nav {
+display: flex;
+}
+nav button {
+justify-content: center;
+height: 2rem;
+width: 7rem;
+text-align: center;
+font-size: 1.6rem;
+align-items: center;
+}
+nav button a {
+text-decoration: none;
+}
+
+.img {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+
+
+/*
+.nav button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+}  
+
+
+
+
+
+.fistBox {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+
+}
+.firstBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: ;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+
+
+*/
+nav button {
+ 
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: flex-start;
+}
+firstBox {
+    margin-top:50px;
+
+
+}
+.info {
+    display: flex;
+    align-items: center;
+}
+.middle {
+    width:10px;
+    display:flex;
+    justify-content: space-between;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
